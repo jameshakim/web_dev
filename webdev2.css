@@ -1,0 +1,12 @@
+body {
+    background-color: #8ca3a3;
+}
+h1 {
+    color: #484f4f;
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}

@@ -1,0 +1,54 @@
+body {
+    background-color: #e0e2e4;
+}
+h1 {
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+
+div.img {
+    margin: 5px;
+    border: 5px solid #484f4f;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 3px solid #563f46;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:  #484f4f;
+
+}
+
+div {
+    background-color:white;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background-color: #484f4f;
+    color: white;
+    
+}
+
+
+#title-pic{
+    background-color: #625750;
+}
+
+#footer-content{
+    background-color: #e0e2e4
+}
