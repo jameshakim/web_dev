@@ -1,0 +1,31 @@
+
+        {% for item in items%}
+        <div>
+        <div class="col-sm-6 col-lg-3">
+            <img src="{{ item.url }}" class="img-thumbnail"
+                alt="table saw" width="300" height="200">
+            </a>
+            <div class="desc">{{item.name}}/div>
+        </div>
+        <div <div class="col-sm-6 col-lg-3">
+                <class="Quantity-picker" width="200" height="300">
+                    <li>{{item.name}</li>
+                    <li>Quantity -{{item.quantity}} </li>
+                    <li>Price - </li>
+
+                    <form action="{%url 'rent' item_id=3 %}" class="rent">
+                        <input type="submit" stye="font-size:25px" value="+">
+                        <a href="#" class="small button secondary"></i>
+                        </a>
+                        </li>
+                    </form>
+                    <form action="{%url 'rent' item_id=3 %}" class="rent">
+                        <input type="submit" stye="font-size:25px" value="-">
+                        <a href="#" class="small button secondary"></i>
+                        </a>
+                    </form>
+                    </li>
+            </div>
+            </div>
+
+          {% endfor %}  

@@ -25,4 +25,3 @@ function calculate() {
         total += (amt * qty);
     });
     $('#Amount').val(total.toFixed(2));
-}

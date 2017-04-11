@@ -1,5 +1,6 @@
 body {
-    background-color: #e0e2e4;
+    background-color: White;
+    /* this colors the bottom of the page*/
 }
 h1 {
     color: white;
@@ -9,13 +10,13 @@ h1 {
 
 div.img {
     margin: 5px;
-    border: 5px solid #484f4f;
+    border: 5px solid black;
     float: left;
     width: 180px;
 }
 
 div.img:hover {
-    border: 3px solid #563f46;
+    border: 3px solid black;
 }
 
 div.img img {
@@ -49,6 +50,8 @@ a.button {
     background-color: #625750;
 }
 
-#footer-content{
-    background-color: #e0e2e4
+
+
+label {
+    font: normal 17px courier !important;
 }
